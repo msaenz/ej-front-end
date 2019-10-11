@@ -1,0 +1,117 @@
+
+https://htmlreference.io
+https://code.visualstudio.com
+
+validador de etiquetas html
+https://validator.w3.org
+ 
+Colores Web
+https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e
+
+Arquitecturas css
+    Objetivos
+        Predecible
+        Reutilizable
+        Mantenible
+        Escalable
+    Buenas Prácticas
+        Establecer Reglas
+        Explicar la estructura Base
+        Establecer estandares de codificación
+        Documentación
+    OOCSS
+        https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/    
+        Css Orientado a Objetos, separa el diseño del contenido
+        Container
+            Design
+                Content
+    BEM
+        http://getbem.com/introduction/
+        BLOCK ELEMENT MODIFIY
+        Separa los bloques, elementos y modificadores
+    SMACSS
+        http://smacss.com/
+        Arquitectura de CSS escalable y modular
+            Base componentes (Botones)
+            Layout, elementos que se utilizan una sola vez (header o footer)
+            Module, componentes que se utilizan mas de una vez
+            State, estado que puede tomar un elementos
+            Theme, cuando cambien los estilos, trabajr en los temas, Colores, Fonts
+    ITCSS
+        https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+        TRIANGULO INVERTIDO DE CSS
+            Poder dividir todos los archivos de css 
+                Ajustes
+                Herramientas
+                Elementos 
+                Objetos
+                Componentes 
+                Utilidades
+            Especificidad, elementos que tienen mayor peso que otros.
+    ATOMIC Design
+        http://bradfrost.com/blog/post/atomic-web-design/
+        Atomos
+        Moleculas
+        Organismos
+        Templates
+        Páginas
+Flexbox vs CSS Grid
+    https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/
+Story books 
+    documentancion visual de todos los componentes
+    Instalar story books
+    ejecutar con npm run storybook
+
+Flexbox
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    https://flexboxfroggy.com/#es
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+    https://platzi.com/clases/html5-css3/
+    https://platzi.com/clases/1350-html5-css3/13369-propiedades-de-flexbox/
+    https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/
+
+css grid
+    https://css-tricks.com/snippets/css/complete-guide-grid/
+    https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+    https://labs.jensimmons.com/
+    https://cssgridgarden.com/#es
+    https://platzi.com/clases/css-grid-layout/
+
+DESCARGA DE ICONOS E IMAGENES GRATIS
+    https://iconos8.es/
+DESCARGA GRATIS ICONOS, MUSICA, FOTOS, VECTORES
+    https://iconos8.es/
+    https://www.pexels.com/
+    https://platzi.com/clases/animaciones-web/
+storybook
+    https://storybook.js.org/docs/guides/guide-html/
+funcion calc css
+https://developer.mozilla.org/es/docs/Web/CSS/calc
+PREPROCESADORES
+    https://sass-lang.com/guide
+    http://lesscss.org/
+    http://stylus-lang.com/
+
+    https://github.com/teffcode/sass-workshop
+    
+sass
+    se crea el archivo de css con la extension scss 
+    sass "/platzi/Escuela de Javascript/front End/css/style.scss" "/platzi/Escuela de Javascript/front End/css/style.css"    
+
+    ***Para que revise los cambios del archivo scss y genere el css ****
+    sass --watch "/platzi/Escuela de Javascript/front End/css/style.scss" "/platzi/Escuela de Javascript/front End/css/style.css"
+
+    Documentación
+    https://sass-lang.com/documentation
+
+    Herencia de clases
+        @extend .clase (simplifica el codigo en las etiquetas donde se debe colocar los validadordeetiquetas
+        de esta clase. analiza y reune en una sola linea todas las clases en donde heredaria con EXTEND)
+
+        @mixin en el archivo scss se excribe @mixin clase --> sass generara en el archivo css cada una de las lineas de la clase,
+        no resume...coloca todas las lineas que tenia el mixin o clase
+ACCESIBILIDAD
+    Herramienta ANDI
+    https://support.apple.com/es-lamr/HT202362
+    https://www.ssa.gov/accessibility/andi/help/install.html
+    https://developer.mozilla.org/es/docs/Web/HTML/Atributos_Globales/tabindex
